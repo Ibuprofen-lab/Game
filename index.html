@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahl Raten - Ibuprofen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JunusErgin/fast-ui/style.css">
+</head>
+<body style="text-align: center; font-family: Arial, sans-serif;">
+    <header>Zahlen Guesser</header>
+    <div class="container">
+        <h1 id="headline">Rate die Zahl!</h1>
+        <h2 id="displayTries">Versuche: 0</h2>
+        <form onsubmit="guessTheNumber(); return false;">
+        <input id="myNumber" type="number" required placeholder="Geb die Zahl ein...">
+        <button>Raten!</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
